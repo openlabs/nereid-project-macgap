@@ -1,7 +1,7 @@
 {
     "main": "public/index.html",
-    "name": "MacGap",
-    "description": "",
+    "name": "MyOpenlabs",
+    "description": "My Openlabs",
     "version": "2.0.0",
     "plugins" : {
                 "Dock":"Dock",
@@ -15,16 +15,14 @@
                 "File" : "File"
                  },
     "window" : {
-        "title" : "MacGap",
-        "width" : 900,
-        "height" : 600,
+        "title" : "MyOpenlabs",
+        "width" : 1280,
+        "height" : 800,
         "position": "center",
-        "min_width": 400,
-        "min_height": 200,
-        "max_width": 1200,
-        "max_height": 800,
+        "min_width": 900,
+        "min_height": 600,
         "opaque": 1,
         "alpha": 1
-    }
-  
+    },
+    "apiBasePath": "https://my.openlabs.us"
 }

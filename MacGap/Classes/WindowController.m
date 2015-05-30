@@ -86,7 +86,7 @@
     NSString *applicationSupportFile = [@"~/Library/Application Support/" stringByExpandingTildeInPath];
     NSString *savePath = [NSString pathWithComponents:[NSArray arrayWithObjects:applicationSupportFile, cappBundleName, @"LocalStorage", nil]];
  
-    NSString *configPath = [[NSBundle mainBundle] pathForResource:@"./public/config" ofType:@"json"];
+    NSString *configPath = [[NSBundle mainBundle] pathForResource:@"./config" ofType:@"json"];
     NSMutableDictionary *config = [[[NSString alloc] initWithContentsOfFile:configPath encoding:NSUTF8StringEncoding error:NULL] JSONObject];
     
     NSDictionary *plugins = [config objectForKey:@"plugins"];
